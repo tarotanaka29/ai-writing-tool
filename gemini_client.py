@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 DEFAULT_MODEL = "gemini-2.5-flash"
-MODELS = ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.5-flash-lite"]
+MODELS = ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-3.5-flash-lite"]
 
 
 def stream_text(
